@@ -1,0 +1,167 @@
+﻿<XtraSerializer version="1.0" application="DevExpress.XtraBars.Ribbon.RibbonCustomizationModel">
+  <property name="Categories" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Text">(Unassigned Pages)</property>
+      <property name="IsVisible">true</property>
+      <property name="Pages" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Text">Cadastro</property>
+          <property name="IsVisible">true</property>
+          <property name="Groups" iskey="true" value="1">
+            <property name="Item1" isnull="true" iskey="true">
+              <property name="Text">Cadastros</property>
+              <property name="ShowCaptionButton">true</property>
+              <property name="IsVisible">true</property>
+              <property name="Items" iskey="true" value="2">
+                <property name="Item1" isnull="true" iskey="true">
+                  <property name="Text">Bordado</property>
+                  <property name="IsVisible">true</property>
+                  <property name="ItemSourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">2147483647</property>
+                  </property>
+                  <property name="IsCustom">false</property>
+                  <property name="Alias">Bordado</property>
+                  <property name="Name" />
+                  <property name="IdInfo" isnull="true" iskey="true">
+                    <property name="Id">13</property>
+                  </property>
+                  <property name="SourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">3</property>
+                  </property>
+                </property>
+                <property name="Item2" isnull="true" iskey="true">
+                  <property name="Text">Linha</property>
+                  <property name="IsVisible">true</property>
+                  <property name="ItemSourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">2147483647</property>
+                  </property>
+                  <property name="IsCustom">false</property>
+                  <property name="Alias">Linha</property>
+                  <property name="Name" />
+                  <property name="IdInfo" isnull="true" iskey="true">
+                    <property name="Id">14</property>
+                  </property>
+                  <property name="SourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">4</property>
+                  </property>
+                </property>
+              </property>
+              <property name="IsCustom">false</property>
+              <property name="Alias">Cadastros</property>
+              <property name="Name">rbpgBordado</property>
+              <property name="IdInfo" isnull="true" iskey="true">
+                <property name="Id">12</property>
+              </property>
+              <property name="SourceIdInfo" isnull="true" iskey="true">
+                <property name="Id">2</property>
+              </property>
+            </property>
+          </property>
+          <property name="IsCustom">false</property>
+          <property name="Alias">Cadastro</property>
+          <property name="Name">rbpCadastro</property>
+          <property name="IdInfo" isnull="true" iskey="true">
+            <property name="Id">11</property>
+          </property>
+          <property name="SourceIdInfo" isnull="true" iskey="true">
+            <property name="Id">1</property>
+          </property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="Text">Utilitário</property>
+          <property name="IsVisible">true</property>
+          <property name="Groups" iskey="true" value="1">
+            <property name="Item1" isnull="true" iskey="true">
+              <property name="Text">Aparência</property>
+              <property name="ShowCaptionButton">false</property>
+              <property name="IsVisible">true</property>
+              <property name="Items" iskey="true" value="3">
+                <property name="Item1" isnull="true" iskey="true">
+                  <property name="Text">Tema</property>
+                  <property name="IsVisible">true</property>
+                  <property name="ItemSourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">2147483647</property>
+                  </property>
+                  <property name="IsCustom">false</property>
+                  <property name="Alias">Tema</property>
+                  <property name="Name" />
+                  <property name="IdInfo" isnull="true" iskey="true">
+                    <property name="Id">17</property>
+                  </property>
+                  <property name="SourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">7</property>
+                  </property>
+                </property>
+                <property name="Item2" isnull="true" iskey="true">
+                  <property name="Text">&amp;Misturar as Cores</property>
+                  <property name="IsVisible">true</property>
+                  <property name="ItemSourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">2147483647</property>
+                  </property>
+                  <property name="IsCustom">false</property>
+                  <property name="Alias">&amp;Misturar as Cores</property>
+                  <property name="Name" />
+                  <property name="IdInfo" isnull="true" iskey="true">
+                    <property name="Id">18</property>
+                  </property>
+                  <property name="SourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">8</property>
+                  </property>
+                </property>
+                <property name="Item3" isnull="true" iskey="true">
+                  <property name="Text">Estilo</property>
+                  <property name="IsVisible">true</property>
+                  <property name="ItemSourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">2147483647</property>
+                  </property>
+                  <property name="IsCustom">false</property>
+                  <property name="Alias">Estilo</property>
+                  <property name="Name" />
+                  <property name="IdInfo" isnull="true" iskey="true">
+                    <property name="Id">19</property>
+                  </property>
+                  <property name="SourceIdInfo" isnull="true" iskey="true">
+                    <property name="Id">9</property>
+                  </property>
+                </property>
+              </property>
+              <property name="IsCustom">false</property>
+              <property name="Alias">Aparência</property>
+              <property name="Name">rbpgAparencia</property>
+              <property name="IdInfo" isnull="true" iskey="true">
+                <property name="Id">16</property>
+              </property>
+              <property name="SourceIdInfo" isnull="true" iskey="true">
+                <property name="Id">6</property>
+              </property>
+            </property>
+          </property>
+          <property name="IsCustom">false</property>
+          <property name="Alias">Utilitário</property>
+          <property name="Name">rbpUtilitario</property>
+          <property name="IdInfo" isnull="true" iskey="true">
+            <property name="Id">15</property>
+          </property>
+          <property name="SourceIdInfo" isnull="true" iskey="true">
+            <property name="Id">5</property>
+          </property>
+        </property>
+      </property>
+      <property name="IsCustom">false</property>
+      <property name="Alias">(Unassigned Pages)</property>
+      <property name="Name" />
+      <property name="IdInfo" isnull="true" iskey="true">
+        <property name="Id">10</property>
+      </property>
+      <property name="SourceIdInfo" isnull="true" iskey="true">
+        <property name="Id">0</property>
+      </property>
+    </property>
+  </property>
+  <property name="CommonSettings" isnull="true" iskey="true">
+    <property name="Minimized">true</property>
+    <property name="ToolbarLocation">Default</property>
+    <property name="IsReady">true</property>
+    <property name="HashCode">10</property>
+  </property>
+</XtraSerializer>

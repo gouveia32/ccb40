@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA9EB721-2640-471C-96B3-3F7A64527335}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ccb40</RootNamespace>
+    <AssemblyName>ccb40</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <StartupObject>ccb40.Program</StartupObject>
+    <FileAlignment>512</FileAlignment>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ccb40.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>borboleta.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.8.0.8, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v16.1" />
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.1" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1" />
+    <Reference Include="DevExpress.XtraBars.v16.1" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\AgendaCriacaoBLL.vb" />
+    <Compile Include="BLL\AgendaPedidoBLL.vb" />
+    <Compile Include="BLL\BordadosBLL.vb" />
+    <Compile Include="BLL\CatalogoBLL.vb" />
+    <Compile Include="BLL\ClienteBLL.vb" />
+    <Compile Include="BLL\EmpregadoBLL.vb" />
+    <Compile Include="BLL\FluxoCaixaBLL.vb" />
+    <Compile Include="BLL\FornecedorBLL.vb" />
+    <Compile Include="BLL\GrupoBLL.vb" />
+    <Compile Include="BLL\ItemBLL.vb" />
+    <Compile Include="BLL\LinhaBLL.vb" />
+    <Compile Include="BLL\LinhaHistoricoBLL.vb" />
+    <Compile Include="BLL\LinhaUtilizadaBLL.vb" />
+    <Compile Include="BLL\LocalBLL.vb" />
+    <Compile Include="BLL\LogBLL.vb" />
+    <Compile Include="BLL\NotaEspecificaBLL.vb" />
+    <Compile Include="BLL\ParametroBLL.vb" />
+    <Compile Include="BLL\PedidoBLL.vb" />
+    <Compile Include="BLL\TipoPagamentoBLL.vb" />
+    <Compile Include="BLL\UsuarioBLL.vb" />
+    <Compile Include="DAL\AgendaCriacaoDAL.vb" />
+    <Compile Include="DAL\AgendaPedidoDAL.vb" />
+    <Compile Include="DAL\BordadoDAL.vb" />
+    <Compile Include="DAL\CatalogoDAL.vb" />
+    <Compile Include="DAL\ClassDB.vb" />
+    <Compile Include="DAL\ClienteDAL.vb" />
+    <Compile Include="DAL\EmpregadoDAL.vb" />
+    <Compile Include="DAL\FluxoCaixaDAL.vb" />
+    <Compile Include="DAL\FornecedorDAL.vb" />
+    <Compile Include="DAL\GrupoDAL.vb" />
+    <Compile Include="DAL\ItemDAL.vb" />
+    <Compile Include="DAL\LinhaDAL.vb" />
+    <Compile Include="DAL\LinhaHistoricoDAL.vb" />
+    <Compile Include="DAL\LinhaUtilizadaDAL.vb" />
+    <Compile Include="DAL\LocalDAL.vb" />
+    <Compile Include="DAL\LogDAL.vb" />
+    <Compile Include="DAL\MySqlParametro.vb" />
+    <Compile Include="DAL\NotaEspecificaDAL.vb" />
+    <Compile Include="DAL\ParametroDAL.vb" />
+    <Compile Include="DAL\PedidoDAL.vb" />
+    <Compile Include="DAL\TipoPagamentoDAL.vb" />
+    <Compile Include="DAL\UsuarioDAL.vb" />
+    <Compile Include="GUI\Cadastro\frmBordados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Cadastro\frmBordados.Designer.vb">
+      <DependentUpon>frmBordados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Funcoes\fnLocalizar.vb" />
+    <Compile Include="Funcoes\fnParametros.vb" />
+    <Compile Include="Funcoes\fnRetiraAcento.vb" />
+    <Compile Include="Funcoes\mySQL.vb" />
+    <Compile Include="GUI\Cadastro\frmLinha.Designer.vb">
+      <DependentUpon>frmLinha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Cadastro\frmLinha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmCadastroCliente.Designer.vb">
+      <DependentUpon>frmCadastroCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmCadastroCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmEscolheCatalogo.Designer.vb">
+      <DependentUpon>frmEscolheCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmEscolheCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmNotas.Designer.vb">
+      <DependentUpon>frmNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Dialogo\frmNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelo\AgendaCriacao.vb" />
+    <Compile Include="Modelo\AgendaPedido.vb" />
+    <Compile Include="Modelo\Bordado.vb" />
+    <Compile Include="Modelo\Catalogo.vb" />
+    <Compile Include="Modelo\Cliente.vb" />
+    <Compile Include="Modelo\Empregado.vb" />
+    <Compile Include="Modelo\FluxoCaixa.vb" />
+    <Compile Include="Modelo\Fornecedor.vb" />
+    <Compile Include="Modelo\Grupo.vb" />
+    <Compile Include="Modelo\Item.vb" />
+    <Compile Include="Modelo\Linha.vb" />
+    <Compile Include="Modelo\LinhaHistorico.vb" />
+    <Compile Include="Modelo\LinhaUtilizada.vb" />
+    <Compile Include="Modelo\Local.vb" />
+    <Compile Include="Modelo\Log.vb" />
+    <Compile Include="Modelo\Moeda.vb" />
+    <Compile Include="Modelo\NotaEspecifica.vb" />
+    <Compile Include="Modelo\Parametro.vb" />
+    <Compile Include="Modelo\Pedido.vb" />
+    <Compile Include="Modelo\TipoPagamento.vb" />
+    <Compile Include="Modelo\Usuario.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ValorDescricao.vb" />
+    <EmbeddedResource Include="GUI\Cadastro\frmBordados.resx">
+      <DependentUpon>frmBordados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Cadastro\frmLinha.resx">
+      <DependentUpon>frmLinha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PedidoBaixa32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="borboleta.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
